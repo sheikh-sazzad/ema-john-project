@@ -1,9 +1,10 @@
 .header{
-    height: 80px;
-    background-color: #1C2B35;
     display: flex;
     align-items: center;
     justify-content:space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #1C2B35;
     padding-right: 140px;
     padding-left: 140px;
 }
@@ -20,6 +21,9 @@
     
 }
 .logo{
-    width: 200px;
+    width: 100px;
     height: 80px;
+}
+.error-message{
+    color: #C0392B;
 }
